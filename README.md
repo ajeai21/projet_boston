@@ -12,7 +12,7 @@ Ce projet met en œuvre un pipeline ETL pour récupérer les salaires des employ
 ## 2. Installation
 
 1. Cloner le dépôt :
-```bash
+
 git clone <URL_DU_DEPOT>
 cd project_data
 
