@@ -1,4 +1,16 @@
 # Projet Boston ETL
+## Équipe
+
+**Groupe n°9**
+
+| Nom | Rôle / Contribution |
+|-----|-------------------|
+| Ajeai SRIYOGANATHAN | Développement ETL |
+| Dounia KADDOURI | Extraction des données |
+| Aya KODAD | Analyse statistique et documentation |
+| Mohammed HAKKOU | CI/CD, organisation projet et README |
+| Israe LAZIZI | Tests unitaires |
+| Janet Ashley TIADAM TCHINDA | Transformation des des données |
 
 # Vision produit
 Ce projet met en œuvre un pipeline ETL pour récupérer les salaires des employés municipaux de Boston, nettoyer les données, les enregistrer dans un CSV et calculer des statistiques par département.
@@ -73,21 +85,26 @@ analyse retourne des statistiques correctes par département
 
 5. Organisation Agile
 Backlog produit
-ID	Fonctionnalité	Description	Priorité
-1	Extraction	Récupérer les données depuis l’API Boston Open Data	Haute
-2	Transformation	Nettoyer et convertir les salaires en float	Haute
-3	Load	Sauvegarder les données nettoyées dans un CSV	Moyenne
-4	Analyse	Calculer statistiques par département	Haute
-5	Tests unitaires	Vérifier toutes les fonctions	Haute
-6	CI/CD	Automatiser les tests avec GitHub Actions	Moyenne
-7	Documentation	Rédiger le README et les instructions	Moyenne
+| ID | Fonctionnalité  | Description                                         | Priorité |
+| -- | --------------- | --------------------------------------------------- | -------- |
+| 1  | Extraction      | Récupérer les données depuis l’API Boston Open Data | Haute    |
+| 2  | Transformation  | Nettoyer et convertir les salaires en float         | Haute    |
+| 3  | Load            | Sauvegarder les données nettoyées dans un CSV       | Moyenne  |
+| 4  | Analyse         | Calculer statistiques par département               | Haute    |
+| 5  | Tests unitaires | Vérifier toutes les fonctions                       | Haute    |
+| 6  | CI/CD           | Automatiser les tests avec GitHub Actions           | Moyenne  |
+| 7  | Documentation   | Rédiger le README et les instructions               | Moyenne  |
+
 Sprints
-Sprint	Objectifs
-Sprint 1	Implémenter extract et transform
-Sprint 2	Implémenter load et analyse
-Sprint 3	Écrire les tests unitaires
-Sprint 4	Mettre en place CI/CD avec GitHub Actions
-Sprint 5	Finaliser README et documentation
+
+| Sprint   | Objectifs                                 |
+| -------- | ----------------------------------------- |
+| Sprint 1 | Implémenter `extract` et `transform`      |
+| Sprint 2 | Implémenter `load` et `analyse`           |
+| Sprint 3 | Écrire les tests unitaires                |
+| Sprint 4 | Mettre en place CI/CD avec GitHub Actions |
+| Sprint 5 | Finaliser README et documentation         |
+
 Rôles et rituels
 Rôle	Description
 Product Owner	Définit la vision et le backlog produit
