@@ -84,16 +84,37 @@ analyse retourne des statistiques correctes par département
 
 
 5. Organisation Agile
-Backlog produit
-| ID | Fonctionnalité  | Description                                         | Priorité |
-| -- | --------------- | --------------------------------------------------- | -------- |
-| 1  | Extraction      | Récupérer les données depuis l’API Boston Open Data | Haute    |
-| 2  | Transformation  | Nettoyer et convertir les salaires en float         | Haute    |
-| 3  | Load            | Sauvegarder les données nettoyées dans un CSV       | Moyenne  |
-| 4  | Analyse         | Calculer statistiques par département               | Haute    |
-| 5  | Tests unitaires | Vérifier toutes les fonctions                       | Haute    |
-| 6  | CI/CD           | Automatiser les tests avec GitHub Actions           | Moyenne  |
-| 7  | Documentation   | Rédiger le README et les instructions               | Moyenne  |
+Backlog Produit
+
+Le backlog liste les fonctionnalités et tâches à réaliser pour ce projet ETL :
+
+Extraction des données
+
+Récupérer les données publiques de Boston (City Payroll 2018) via l’API.
+
+Transformation des données
+
+Nettoyer les noms de colonnes, convertir les salaires en float, supprimer les valeurs manquantes.
+
+Chargement (Load)
+
+Sauvegarder les données nettoyées dans un fichier CSV exploitable.
+
+Analyse statistique
+
+Calculer min, max, moyenne, médiane, écart et nombre d’employés par département.
+
+Tests unitaires
+
+Vérifier que chaque fonction ETL fonctionne correctement avec pytest.
+
+CI/CD avec GitHub Actions
+
+Automatiser l’exécution des tests à chaque push ou pull request.
+
+Documentation et README
+
+Décrire le projet, l’équipe, le pipeline ETL et les instructions pour les tests.
 
 Sprints
 
@@ -105,12 +126,27 @@ Sprints
 | Sprint 4 | Mettre en place CI/CD avec GitHub Actions |
 | Sprint 5 | Finaliser README et documentation         |
 
-Rôles et rituels
-Rôle	Description
-Product Owner	Définit la vision et le backlog produit
-Développeur ETL	Implémente les fonctions extract, transform, load, analyse
-Testeur	Écrit et exécute les tests unitaires
-Scrum Master	S’assure que les sprints avancent correctement, organise les réunions
+Rôles et Rituels (méthode Agile)
+
+Rôles de l’équipe :
+
+Product Owner (PO) : Définit les objectifs du projet et priorise le backlog.
+
+Scrum Master / Coordinateur : S’assure que l’équipe avance efficacement et que les tâches sont bien organisées.
+
+Développeurs / Data Engineers : Implémentent l’ETL, les tests, la CI/CD et la documentation.
+
+Rituels / pratiques Agile :
+
+Daily Stand-up (10 min) : Chaque membre partage ce qu’il a fait, ce qu’il fera, et les obstacles rencontrés.
+
+Sprint Planning : Planification des tâches à réaliser pour le sprint (ex : extraction, transformation, tests).
+
+Sprint Review : Présentation des fonctionnalités réalisées et retour de l’équipe / professeur.
+
+Retrospective : Discussion sur ce qui a bien fonctionné et ce qui peut être amélioré pour le prochain sprint.
+
+
 
 Rituels Agile possibles :
 
